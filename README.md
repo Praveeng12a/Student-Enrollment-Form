@@ -32,5 +32,6 @@ In this form there are three diffrent buttons and all have their own functionali
 
 •	**Save** : It will first check the roll no is present or not in the database after taking a input from the user, if not present then user can fill the other field of                the form and save the data in the database. 
 
-• **Update** : It will first check the roll no is present or not in the database after taking a input from the user, if it is present then user can update the field of                the form and update the data in the database.                                                                                                                                                                                                                             
+• **Update** : It will first check the roll no is present or not in the database after taking a input from the user, if it is present then user can update the field of                the form and update the data in the database.
+
 •	**Reset** : By using this function we can clear the data of the form and re-enter the data of the student.
