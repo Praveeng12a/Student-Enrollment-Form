@@ -66,10 +66,10 @@ function fillData(jsonObject) {
     } else {
         // student record number saved to localstorage
         saveRecNoToLocalStorage(jsonObject);
-        
+
         // parse json object into JSON
         var data = JSON.parse(jsonObject.data).record;
-        
+
         $('#fullName').val(data.name);
         $('#class').val(data.className);
         $('#birthDate').val(data.birthDate);
@@ -84,9 +84,9 @@ function validateEnrollmentDate() {
     var inputEnrollmentDate = $('#enrollmentDate').val();
     inputBirthDate = new Date(inputBirthDate);
     inputEnrollmentDate = new Date(inputEnrollmentDate);
-
-    //Enrollment date should be greater than Birth date
-    return inputBirthDate.getTime() < inputEnrollmentDate.getTime();
+    
+    var verifiedEnrollmentDate=inputBirthDate.getTime() < inputEnrollmentDate.getTime();
+    return verifiedEnrollmentDate;
 
 }
 
@@ -106,7 +106,7 @@ function validateFormData() {
         return "";
     }
 
-    if(name===''){
+    if (name === '') {
         alert('name is missing');
         $('#fullName').focus();
         return "";
@@ -170,7 +170,7 @@ function getStudentRollnoAsJsonObj() {
 }
 
 // Function to GET request
-function getStudentData() {
+function getData() {
     if ($('#rollNo').val() === "") {
         disableAllFeildExceptRollno();
     } else if ($('#rollNo').val() < 1) {
@@ -197,7 +197,7 @@ function getStudentData() {
         $('#enrollmentDate').prop('disabled', false);
 
 
-        if (resJsonObj.status === 400) { 
+        if (resJsonObj.status === 400) {
             $('#resetBtn').prop('disabled', false);
             $('#saveBtn').prop('disabled', false);
             $('#updateBtn').prop('disabled', true);
@@ -211,7 +211,7 @@ function getStudentData() {
             $('#saveBtn').prop('disabled', true);
             $('#name').focus();
         }
-    
+
     }
 }
 
@@ -220,15 +220,14 @@ function getStudentData() {
 function saveData() {
     var jsonStrObj = validateFormData();
 
-    // If form data is not valid
+    // If Data is not valid then return empty strings
     if (jsonStrObj === '')
         return '';
 
     // create PUT Request object
-    var putRequest = createPUTRequest(connectionToken, jsonStrObj, dbName,RelationName );
+    var putRequest = createPUTRequest(connectionToken, jsonStrObj, dbName, RelationName);
     jQuery.ajaxSetup({ async: false });
 
-    //Make PUT Request for saving data into database
     var resJsonObj = executeCommandAtGivenBaseUrl(putRequest, jpdbBaseURL, jpdbIML);
     jQuery.ajaxSetup({ async: true });
 
@@ -239,14 +238,14 @@ function saveData() {
         alert('Data Saved successfully');
     }
 
-    //After saving to databse resent from data 
+
     resetform();
     $('#rollNo').focus();
 }
 
 
 //Function used to make UPDATE Request
-function changeData() {
+function updateData() {
     $('#changeBtn').prop('disabled', true);
     var jsonChg = validateFormData();
 
@@ -262,11 +261,9 @@ function changeData() {
     if (resJsonObj.status === 400) {
         alert('Data Is Not Update ( Message: ' + resJsonObj.message + " )");
     } else if (resJsonObj.status === 200) {
-        alert('Data Update successfully');
+        alert('Data Updated successfully');
     }
 
-
-    //After updating to databse resent from data
     resetform();
     $('#rollNo').focus();
 }

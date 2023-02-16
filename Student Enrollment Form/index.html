@@ -25,8 +25,8 @@
     display:flex;
     justify-content: center;
     
-}
 
+}
 .btn{
    margin-left:20px;
    margin-right:20px;
@@ -62,7 +62,7 @@
                 <div class="form-group col-md-6">
                     <label for="rollNo">Roll-No</label>
                     <input type="number" class="form-control" id="rollNo" placeholder="Roll No"
-                        onchange="getStudentData()">
+                        onchange="getData()">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="fullName">Full-Name</label>
@@ -91,10 +91,10 @@
             </div>
             <div class='container btn-continer'>
 
-                <button type="button" class="btn btn-primary" id='saveBtn' onclick="saveData()" disabled>Save </button>
-                <button type="button" class="btn btn-primary" id='updateBtn' onclick="changeData()"
+                <button type="button" class="btn btn-warning" id='saveBtn' onclick="saveData()" disabled>Save </button>
+                <button type="button" class="btn btn-warning" id='updateBtn' onclick="updateData()"
                     disabled>Update</button>
-                <button type="button" class="btn btn-primary" id='resetBtn' onclick="resetform()"
+                <button type="button" class="btn btn-warning" id='resetBtn' onclick="resetform()"
                     disabled>Reset</button>
             </div>
         </form>
