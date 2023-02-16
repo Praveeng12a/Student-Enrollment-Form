@@ -39,7 +39,7 @@ In this form there are three diffrent buttons and all have their own functionali
 
 # Sources
 
-•	Bootstrap            
-•	Introduction to JsonPowerDB - V2.0 - https://careers.login2explore.com                                                                    
+•	**Bootstrap**            
+•	**Introduction to JsonPowerDB - V2.0** - https://careers.login2explore.com                                                                    
 • **JPDB Documentation Page**: http://login2explore.com/jpdb/docs.html#jpdb-command-request                                                                                                                                                 
 
