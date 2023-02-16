@@ -17,4 +17,3 @@ This is a student enrollment form which can be use by any school to get the reco
 ####    Server Side Native NoSQL - Best Performance.
 
 
-![images (1)](https://user-images.githubusercontent.com/110447902/219295871-422dd646-222a-4d30-994e-db34fbe2c967.jpg)
