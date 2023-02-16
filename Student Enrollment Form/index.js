@@ -84,8 +84,8 @@ function validateEnrollmentDate() {
     var inputEnrollmentDate = $('#enrollmentDate').val();
     inputBirthDate = new Date(inputBirthDate);
     inputEnrollmentDate = new Date(inputEnrollmentDate);
-    
-    var verifiedEnrollmentDate=inputBirthDate.getTime() < inputEnrollmentDate.getTime();
+
+    var verifiedEnrollmentDate = inputBirthDate.getTime() < inputEnrollmentDate.getTime();
     return verifiedEnrollmentDate;
 
 }
