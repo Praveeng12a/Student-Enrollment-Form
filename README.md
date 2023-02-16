@@ -15,3 +15,8 @@ This is a student enrollment form which can be use by any school to get the reco
 •	Multi-Mode database - One solutions to variety of data                                                                                                                 
 •	Simplest way to access the data.                                                                                                                                       
 •	Server Side Native NoSQL - Best Performance.
+
+
+################ Clone the project
+git clone https://github.com/Praveeng12a/Student-Enrollment-Form.git
+
