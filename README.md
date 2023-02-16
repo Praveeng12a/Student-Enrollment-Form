@@ -35,3 +35,11 @@ In this form there are three diffrent buttons and all have their own functionali
 • **Update** : It will first check the roll no is present or not in the database after taking a input from the user, if it is present then user can update the field of                the form and update the data in the database.
 
 •	**Reset** : By using this function we can clear the data of the form and re-enter the data of the student.
+
+
+# Sources
+
+•	Bootstrap            
+•	Introduction to JsonPowerDB - V2.0 - https://careers.login2explore.com                                                                    
+• **JPDB Documentation **Page: http://login2explore.com/jpdb/docs.html#jpdb-command-request                                                                                                                                                 
+
