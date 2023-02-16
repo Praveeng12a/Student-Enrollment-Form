@@ -8,7 +8,6 @@ This is a student enrollment form which can be use by any school to get the reco
 
 # Features of using JsonPowerDB
 
-<<<<<<< HEAD
 •	Nimble, Simple to use, In Memory, Real-time database                                                                   
 •	Schema free- Easy to maintain.                                                                                         
 •	A single Instances - Million Indexes                                                                                   
@@ -16,12 +15,3 @@ This is a student enrollment form which can be use by any school to get the reco
 •	Multi-Mode database - One solutions to variety of data                                                                 
 •	Simplest way to access the data.                                                                                       
 •	Server Side Native NoSQL - Best Performance.                                                                           
-=======
-•	Nimble, Simple to use, In Memory, Real-time database                                                                                                                   
-•	Schema free- Easy to maintain.                                                                                                                                         
-•	A single Instances - Million Indexes                                                                                                                                   
-•	Multiple Security layers                                                                                                                                               
-•	Multi-Mode database - One solutions to variety of data                                                                                                                 
-•	Simplest way to access the data.                                                                                                                                       
-•	Server Side Native NoSQL - Best Performance.                                                                                                                           
->>>>>>> 0e4370e36f5be2b6f22dc0614ce6937c758707e8
