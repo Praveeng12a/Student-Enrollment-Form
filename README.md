@@ -14,4 +14,16 @@ This is a student enrollment form which can be use by any school to get the reco
 •	Multiple Security layers                                                                                               
 •	Multi-Mode database - One solutions to variety of data                                                                 
 •	Simplest way to access the data.                                                                                       
-•	Server Side Native NoSQL - Best Performance.                                                                           
+•	Server Side Native NoSQL - Best Performance.                                                                                                                           
+
+
+# Use of Software 
+
+### For Frontend
+•	HTML (Hyper Text Markup Language)                                                                                
+•	CSS (Cascading Style Sheets)                                                             
+•	JavaScript                                                                                                                                                            
+
+
+### For Backend
+•	JsonPowerDB - As a Database       
