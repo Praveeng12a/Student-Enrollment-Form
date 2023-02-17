@@ -18,13 +18,9 @@ var dbName = 'School';
 var RelationName = 'Student-Relation';
 var connectionToken = '90932584|-31949277705058169|90948986';
 
-// Using JQuery 
-
-// $('#rollNo').focus();
-
 
 // Function for disable all element on page except roll number input feild
-function disableAllFeildExceptRollno() {
+const disableAllFeildExceptRollno = () => {
     $('#fullName').prop('disabled', true);
     $('#class').prop('disabled', true);
     $('#birthDate').prop('disabled', true);
@@ -37,7 +33,7 @@ function disableAllFeildExceptRollno() {
 
 
 //Function for reset form data and disable all other feild except roll number
-function resetform() {
+const resetform = () => {
     $('#rollNo').val("");
     $('#fullName').val("");
     $('#class').val("");
@@ -79,7 +75,7 @@ function fillData(jsonObject) {
 }
 
 //Function to check validity of Enrollment Number
-function validateEnrollmentDate() {
+const verifyingEnrollment = function () {
     var inputBirthDate = $('#birthDate').val();
     var inputEnrollmentDate = $('#enrollmentDate').val();
     inputBirthDate = new Date(inputBirthDate);
@@ -91,7 +87,7 @@ function validateEnrollmentDate() {
 }
 
 //Function to check validity of data
-function validateFormData() {
+const validateFormData = function () {
     var rollNo, name, className, birthDate, address, enrollmentDate;
     rollNo = $('#rollNo').val();
     name = $('#fullName').val();
@@ -140,7 +136,7 @@ function validateFormData() {
         return "";
     }
 
-    if (!validateEnrollmentDate()) {
+    if (!verifyingEnrollment()) {
         alert('Invalid Enrollment Date');
         $('#enrollmentData').focus();
         return "";
@@ -156,11 +152,10 @@ function validateFormData() {
         enrollmentDate: enrollmentDate
     };
 
-    //Convert JSON object into string 
     return JSON.stringify(jsonStrObj);
 }
 
-//Function to return stringified JSON object whcih contain roll number of student
+// to get the roll no as Json Objectw
 function getStudentRollnoAsJsonObj() {
     var rollNO = $('#rollNo').val();
     var jsonStr = {
@@ -180,11 +175,11 @@ function getData() {
     } else {
         var studentRollnoJsonObj = getStudentRollnoAsJsonObj();
 
-        // create GET Request object
+        // creating the GET Request 
         var getRequest = createGET_BY_KEYRequest(connectionToken, dbName, RelationName, studentRollnoJsonObj);
 
         jQuery.ajaxSetup({ async: false });
-        // make GET request
+        // making the GET request
         var resJsonObj = executeCommandAtGivenBaseUrl(getRequest, jpdbBaseURL, jpdbIRL);
         jQuery.ajaxSetup({ async: true });
 
@@ -224,7 +219,7 @@ function saveData() {
     if (jsonStrObj === '')
         return '';
 
-    // create PUT Request object
+    // creating the PUT Request object
     var putRequest = createPUTRequest(connectionToken, jsonStrObj, dbName, RelationName);
     jQuery.ajaxSetup({ async: false });
 
@@ -238,7 +233,6 @@ function saveData() {
         alert('Data Saved successfully');
     }
 
-
     resetform();
     $('#rollNo').focus();
 }
@@ -249,11 +243,11 @@ function updateData() {
     $('#changeBtn').prop('disabled', true);
     var jsonChg = validateFormData();
 
-    // Create UPDATE Request object
+    // Creating the UPDATE Request
     var updateRequest = createUPDATERecordRequest(connectionToken, jsonChg, dbName, RelationName, localStorage.getItem("recordNo"));
     jQuery.ajaxSetup({ async: false });
 
-    //Make UPDATE Request
+    //Making the UPDATE Request
     var resJsonObj = executeCommandAtGivenBaseUrl(updateRequest, jpdbBaseURL, jpdbIML);
     jQuery.ajaxSetup({ async: true });
 

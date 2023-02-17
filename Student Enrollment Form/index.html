@@ -14,55 +14,46 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap'); 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 
-.container{
-    margin-top:30px;
-}
+        .container {
+            margin-top: 30px;
+        }
 
-.btn-continer{
-    display:flex;
-    justify-content: center;
-    
+        .btn-continer {
+            display: flex;
+            justify-content: center;
+        }
 
-}
-.btn{
-   margin-left:20px;
-   margin-right:20px;
-}
-</style>
+        .btn {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 
 <body>
 
     <!-- Navbar using the bootstarp -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: aqua;">
+        <div class="container-fluid" style="background-color: rgb(77, 162, 237);">
             <a class="navbar-brand" href="#">Student Enrollment Form</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                </ul>
-            </div>
     </nav>
 
-        <!-- Form using Bootstrap -->
+    <!-- Form using Bootstrap -->
 
     <div class="container">
         <form id="student-enrollment">
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="rollNo">Roll-No</label>
-                    <input type="number" class="form-control" id="rollNo" placeholder="Roll No"
-                        onchange="getData()">
+                    <input type="number" class="form-control" id="rollNo" placeholder="Roll No" onchange="getData()">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="fullName">Full-Name</label>
@@ -99,7 +90,6 @@
             </div>
         </form>
     </div>
-
 
     <!-- A JavaScript library -->
     <script type='text/javascript' src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>

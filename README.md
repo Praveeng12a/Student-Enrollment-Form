@@ -63,7 +63,7 @@ In this form there are three diffrent buttons and all have their own functionali
 •	**Introduction to JsonPowerDB - V2.0** - https://careers.login2explore.com                                                                    
 • **JPDB Documentation Page**: http://login2explore.com/jpdb/docs.html#jpdb-command-request
 
-## Contributing
+# Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are *greatly appreciated*.
 
 1. Fork the Project
