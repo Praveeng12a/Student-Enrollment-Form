@@ -10,6 +10,7 @@ This is a student enrollment form which can be use by any school to get the reco
 <!--         <li><a href="#built-with">Built With</a></li> -->
       </ul>
     </li>
+    <li><a href="#Use-case">Use cases</a></li>
     <li>
       <a href="#Use-of-Software">Use of Software</a>
       <ul>
@@ -33,7 +34,17 @@ This is a student enrollment form which can be use by any school to get the reco
 •	Multiple Security layers                                                                                               
 •	Multi-Mode database - One solutions to variety of data                                                                 
 •	Simplest way to access the data.                                                                                       
-•	Server Side Native NoSQL - Best Performance.                                                                                                                           
+•	Server Side Native NoSQL - Best Performance.       
+
+### Use cases:
+
+* All RDMS use cases.
+* All key-value use cases.
+* All document use cases.
+* Time series/geospatial analytics.
+* Real time application for data analytics.
+* Live working HTML templates.
+* Any software application that needs backend DB. (Dynamic web-apps/Mobile/Desktop Apps)
 
 
 # Use of Software 
