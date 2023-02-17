@@ -65,15 +65,7 @@ In this form there are three diffrent buttons and all have their own functionali
 •	**Introduction to JsonPowerDB - V2.0** - https://careers.login2explore.com                                                                    
 • **JPDB Documentation Page**: http://login2explore.com/jpdb/docs.html#jpdb-command-request
 
-
-## Getting Started
-Fork and clone this repository in your local system.
- ```sh
-git clone https://github.com/Praveeng12a/Student-Enrollment-Form.git   
- ```sh                                                                                          
-
-
-## **Contributing**
+## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are *greatly appreciated*.
 
 1. Fork the Project
@@ -81,3 +73,10 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request.
+
+## Getting Started
+Fork and clone this repository in your local system.
+ ```sh
+git clone https://github.com/Srishti20022/Music-me-Chatbot_song_recommendor_system-.git
+
+
