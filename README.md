@@ -3,22 +3,22 @@ This is a student enrollment form using JsonPowerDB as backend and HTML5,JavaScr
 
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol> <li><a href="#Description">Description</a></li>
+  <ol>
     <li>
-     
-      
+      <a href="#about-the-project">About The Project</a>
       <ul>
-        <a href="#Use of Software">Use of Software</a>
-        <li><a href="#For Frontend">For Frontend</a></li>
-        <li><a href="#For Backend">For Backend</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-        <li><a href="#Features of using JsonPowerDB">Features of using JsonPowerDB</a></li>
-      <li><a href="#Screenshots">Screenshots</a></li>
-    <li><a href="#Illustrations">Illustrations</a></li>
-    <li><a href="#Sources">Sources</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#Getting Started">Getting Started</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
