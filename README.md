@@ -69,7 +69,7 @@ In this form there are three diffrent buttons and all have their own functionali
 ## Getting Started
 Fork and clone this repository in your local system.
  ```sh
-git clone https://github.com/Praveeng12a/Student-Enrollment-Form.git                                                                                                  
+git clone https://github.com/Praveeng12a/Student-Enrollment-Form.git    ```sh                                                                                          
 
 
 ## Contributing
