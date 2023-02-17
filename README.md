@@ -25,9 +25,6 @@ This is a student enrollment form which can be use by any school to get the reco
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 
-# Description
-This is a student enrollment form which can be use by any school to get the record of the student and we have use JsonPowerDB as database to store the record. In this we have use a CRUD operation such as PUT, GET, UPDATE.
-
 
 # Features of using JsonPowerDB
 
