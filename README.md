@@ -4,13 +4,23 @@ This is a student enrollment form using JsonPowerDB as backend and HTML5,JavaScr
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+<!--         <li><a href="#installation">Installation</a></li> -->
+      </ul>
+    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+  </ol>ls>
 
 # Description
 This is a student enrollment form which can be use by any school to get the record of the student and we have use JsonPowerDB as database to store the record. In this we have use a CRUD operation such as PUT, GET, UPDATE.
