@@ -6,8 +6,9 @@ This is a student enrollment form using JsonPowerDB as backend and HTML5,JavaScr
   <ol> <li><a href="#Description">Description</a></li>
     <li>
      
-      <a href="#Use of Software">Use of Software</a>
+      
       <ul>
+        <a href="#Use of Software">Use of Software</a>
         <li><a href="#For Frontend">For Frontend</a></li>
         <li><a href="#For Backend">For Backend</a></li>
       </ul>
