@@ -1,5 +1,5 @@
 # Student-Enrollment-Form
-This is a student enrollment form using JsonPowerDB as backend and HTML5,JavaScript as Frontend.
+This is a student enrollment form which can be use by any school to get the record of the student and we have use JsonPowerDB as database to store the record. In this we have use a CRUD operation such as PUT, GET, UPDATE.
 
 <details open="open">
   <summary>Table of Contents</summary>
