@@ -5,7 +5,7 @@ This is a student enrollment form using JsonPowerDB as backend and HTML5,JavaScr
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Description">DescriptionDB</a>
+    <li><a href="#Description">DescriptionDB</a></li>
       <a href="#Features-of-using-JsonPowerDB">Features of using JsonPowerDB</a>
       <ul>
 <!--         <li><a href="#built-with">Built With</a></li> -->
