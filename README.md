@@ -22,7 +22,6 @@ This is a student enrollment form which can be use by any school to get the reco
     <li><a href="#Sources">Sources</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#Getting-Started">Getting Started</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 
 
