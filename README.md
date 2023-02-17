@@ -11,7 +11,8 @@ This is a student enrollment form using JsonPowerDB as backend and HTML5,JavaScr
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <ul><a href="#getting-started">Getting Started</a>
+        </ul>
 
     </li>
     <li><a href="#usage">Usage</a></li>
