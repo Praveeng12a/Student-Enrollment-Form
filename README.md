@@ -48,6 +48,12 @@ This is a student enrollment form which can be use by any school to get the reco
 
 # Screenshots
 
+![Form_image](https://user-images.githubusercontent.com/110447902/219674192-e375bbe7-09cc-4426-ab51-40bd2cdf11d0.png)
+
+
+![JsonPowerDB_image](https://user-images.githubusercontent.com/110447902/219674273-faf437fc-0fab-428c-ae26-04c52b87e344.png)
+
+
 
 # Illustrations 
 In this form there are three diffrent buttons and all have their own functionality.                                                                                     
